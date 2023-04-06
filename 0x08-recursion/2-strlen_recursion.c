@@ -3,7 +3,7 @@
  * _strlen_recursion - length of string
  * @s
  * Return:int
- * Author:Ose O
+ * Author: Ose O
  */
 int _strlen_recursion(char *s)
 {
