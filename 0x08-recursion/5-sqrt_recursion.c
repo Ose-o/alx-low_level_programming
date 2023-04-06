@@ -7,7 +7,6 @@
  * check - checks for the square root
  * @a:int
  * @b:int
- * Author Ose Oriabure
  * Return: int
  */
 int check(int c, int d)
