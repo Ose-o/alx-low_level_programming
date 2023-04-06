@@ -9,6 +9,7 @@
  * @b:int
  * Return: int
  */
+
 int check(int c, int d)
 {
 	if (c * c == d)
@@ -23,6 +24,7 @@ int check(int c, int d)
  * @n: integer to find sqrt of
  * Return: natural square root or -1
  */
+
 int _sqrt_recursion(int n)
 {
 	if (n == 0)
