@@ -2,14 +2,15 @@
 #include "main.h"
 
 /**
- * check - checks for the square root
- * @a:int
- * @b:int
+ * _sqrt_recursion - returns the natural square root of a number
+ * @c:int
+ * @d:int
  * Return: int
  */
 
 int check(int c, int d)
 {
+
 	if (c * c == d)
 		return (c);
 	if (c * c > d)
