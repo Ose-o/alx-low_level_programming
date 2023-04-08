@@ -4,10 +4,11 @@
  * _puts - prints a string followed by a new line
  * @str: pointer to the string to print
  */
-void_puts(char *str)
+void _puts(char *str)
 {
-	_put("%s\n", str);
+	_puts(str);
 }
+
 /**
  * main - Entry point
  * Return: Always 0 (Success)
