@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "lists.h"
+#include "list.h"
 
 /**
  * print_list - check the code for Holberton School students.

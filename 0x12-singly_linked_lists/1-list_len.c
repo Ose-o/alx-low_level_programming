@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "lists.h"
+#include "list.h"
 
 /**
  * list_len - check the code for Holberton School students.
@@ -15,7 +15,7 @@ size_t list_len(const list_t *h)
 	while (head)
 	{
 		count++;
-		head = head->next;
+		head = headi:->next;
 	}
 	return (count);
 }
