@@ -15,6 +15,6 @@ void free_list(list_t *head)
     {
     next = voltage->next;
     free(voltage);
-    voltage = next
+    voltage = next;
     }
 }
