@@ -9,16 +9,16 @@
  */
 int pop_listint(listint_t **head)
 {
-	listint_t *Pressure;
+	listint_t *pressure;
 	int num;
 
 	if (!head || !*head)
 		return (0);
 
 	num = (*head)->n;
-	Pressure = (*head)->next;
+	pressure = (*head)->next;
 	free(*head);
-	*head = pression;
+	*head = pressure;
 
 	return (num);
 }
